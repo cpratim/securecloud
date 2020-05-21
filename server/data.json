@@ -1,0 +1,315 @@
+{
+    "files": [],
+    "Docs": {
+        "files": [],
+        ".protected": true,
+        ".password": "docs123",
+        "Feb_21_2020": {
+            ".protected": false,
+            ".password": "",
+            "files": [
+                "IMG_0765.png",
+                "IMG_20200207_214658.jpg",
+                "IMG_0877.png",
+                "IMG_0768.png",
+                "IMG_0928.jpg",
+                "IMG_0741.png",
+                "IMG_0874.png",
+                "IMG_0664.png",
+                "IMG_0652.png",
+                "unknown-1.png",
+                "IMG_0743.png",
+                "IMG_0924.png",
+                "IMG_0875.png",
+                "IMG_0749.png",
+                "IMG_0956.png",
+                "IMG_0948.jpg",
+                "Screenshot_20200117-181130.png",
+                "IMG_0881.png",
+                "IMG_0906.png",
+                "Screenshot from 2020-02-24 18-21-22.png",
+                "Screenshot from 2020-02-25 17-55-20.png",
+                "image0.png.jpg"
+            ]
+        }
+    },
+    "Projects": {
+        "files": [],
+        ".protected": false,
+        ".password": "",
+        "securecloud": {
+            "files": [],
+            ".protected": false,
+            ".password": "",
+            "tests": {
+                "files": [
+                    "upload.py",
+                    "test.py",
+                    "test.json"
+                ],
+                ".protected": false,
+                ".password": "",
+                "Docs": {
+                    "files": [],
+                    ".protected": false,
+                    ".password": "",
+                    "Feb_21_2020": {
+                        "files": [
+                            "IMG_0765.png",
+                            "IMG_20200207_214658.jpg",
+                            "IMG_0877.png",
+                            "IMG_0768.png",
+                            "IMG_0928.jpg",
+                            "IMG_0741.png",
+                            "IMG_0874.png",
+                            "IMG_0664.png",
+                            "IMG_0652.png",
+                            "unknown-1.png",
+                            "IMG_0743.png",
+                            "IMG_0924.png",
+                            "IMG_0875.png",
+                            "IMG_0749.png",
+                            "IMG_0956.png",
+                            "IMG_0948.jpg",
+                            "Screenshot_20200117-181130.png",
+                            "IMG_0881.png",
+                            "IMG_0906.png"
+                        ],
+                        ".protected": false,
+                        ".password": ""
+                    }
+                }
+            },
+            "server": {
+                "files": [
+                    "forms.py",
+                    "crypto.py",
+                    "controls.py",
+                    "config.py",
+                    "types.py",
+                    "data.json",
+                    "server.py"
+                ],
+                ".protected": false,
+                ".password": "",
+                "__pycache__": {
+                    "files": [
+                        "config.cpython-36.pyc",
+                        "controls.cpython-36.pyc"
+                    ],
+                    ".protected": false,
+                    ".password": ""
+                },
+                "templates": {
+                    "files": [
+                        "verify.html",
+                        "storage.html"
+                    ],
+                    ".protected": false,
+                    ".password": ""
+                },
+                "static": {
+                    "files": [],
+                    "scripts": {
+                        "files": [
+                            "upload.js",
+                            "jquery.js",
+                            "storage.js"
+                        ],
+                        ".protected": false,
+                        ".password": ""
+                    },
+                    "misc": {
+                        "files": [
+                            "folder.png",
+                            "file_icon.jpg",
+                            "file.png",
+                            "upload.png"
+                        ],
+                        ".protected": false,
+                        ".password": ""
+                    },
+                    "styles": {
+                        "files": [
+                            "storage.css"
+                        ],
+                        ".protected": false,
+                        ".password": ""
+                    }
+                }
+            },
+            "client": {
+                "files": [
+                    "cloud.py",
+                    "sc"
+                ],
+                ".protected": false,
+                ".password": ""
+            }
+        },
+        "FBLA": {
+            "files": [
+                "server.py",
+                "controls.py",
+                "data.json"
+            ],
+            ".protected": false,
+            ".password": "",
+            "static": {
+                "files": [],
+                ".protected": false,
+                ".password": "",
+                "misc": {
+                    "files": [
+                        "location.png",
+                        "clock.png"
+                    ],
+                    ".protected": false,
+                    ".password": ""
+                },
+                "styles": {
+                    "files": [
+                        "events.css",
+                        "login.css",
+                        "register.css"
+                    ],
+                    ".protected": false,
+                    ".password": ""
+                }
+            },
+            "templates": {
+                "files": [
+                    "events.html",
+                    "login.html",
+                    "register.html"
+                ],
+                ".protected": false,
+                ".password": ""
+            }
+        },
+        "isgay": {
+            "files": [
+                "commands.txt",
+                "isgay.pem"
+            ],
+            ".protected": true,
+            ".password": "isreallygay",
+            "server": {
+                "files": [
+                    "config.py",
+                    "server.py"
+                ],
+                ".protected": false,
+                ".password": "",
+                "static": {
+                    "files": [
+                        "lgbt.png"
+                    ],
+                    ".protected": false,
+                    ".password": "",
+                    "styles": {
+                        "files": [
+                            "index.css"
+                        ],
+                        ".protected": false,
+                        ".password": ""
+                    }
+                },
+                "templates": {
+                    "files": [
+                        "index.html"
+                    ],
+                    ".protected": false,
+                    ".password": ""
+                },
+                "__pycache__": {
+                    "files": [
+                        "config.cpython-37.pyc"
+                    ],
+                    ".protected": false,
+                    ".password": ""
+                }
+            }
+        }
+    },
+    "nigUr": {
+        "files": [],
+        ".protected": false,
+        ".password": ""
+    },
+    "Pratim": {
+        "files": [
+            "Resume.pdf"
+        ],
+        ".protected": true,
+        ".password": "hero1218"
+    },
+    "Hasan": {
+        "files": [],
+        ".protected": false,
+        ".password": "",
+        "Pictures": {
+            "files": [
+                "C041E0F6-5421-416A-969F-8FE519A3B78E.jpeg"
+            ],
+            ".protected": true,
+            ".password": "Siddiqui123"
+        }
+    },
+    "Daniel": {
+        "files": [],
+        ".protected": true,
+        ".password": "gay321"
+    },
+    "Ethan": {
+        "files": [],
+        ".protected": false,
+        ".password": ""
+    },
+    "Comp_Sci": {
+        "files": [
+            "IMG_0990.JPG",
+            "IMG_20200213_221946.jpg",
+            "IMG_0654.JPG",
+            "IMG_0653.JPG",
+            "Screenshot from 2020-02-28 18-58-10.png",
+            "Screenshot from 2020-02-28 18-30-34.png",
+            "IMG_0993.JPG",
+            "IMG_0998.JPG",
+            "IMG_20200213_222008.jpg",
+            "shirtless.jpg",
+            "Screenshot from 2020-02-28 18-56-48.png",
+            "Screenshot from 2020-02-28 19-07-16.png",
+            "Screenshot from 2020-02-29 01-26-39.png"
+        ],
+        ".protected": true,
+        ".password": "Constructor15"
+    },
+    "Rohit": {
+        "files": [],
+        ".protected": true,
+        ".password": "12345"
+    },
+    "Pictures": {
+        "files": [
+            "MVIMG_20190426_204911.jpg",
+            "Screenshot_20190427-162009.png",
+            "IMG_20190505_190020.jpg",
+            "IMG_20190526_153020.jpg",
+            "Screenshot_20190429-012808.png",
+            "Screenshot_20190506-184627.png",
+            "MVIMG_20190504_222046.jpg",
+            "IMG-20190426-WA0043.jpg",
+            "Screenshot_20190527-090854.png",
+            "test pic.png",
+            "Screenshot_20190512-123942.png",
+            "IMG_20190517_152927_973.jpg",
+            "IMG_20190430_190507.jpg",
+            "IMG_20190426_204917.jpg",
+            "IMG_20190504_161841.jpg",
+            "IMG_20190519_193355.jpg"
+        ],
+        ".protected": false,
+        ".password": ""
+    }
+}

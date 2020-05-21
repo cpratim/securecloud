@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel='stylesheet' href='/static/styles/storage.css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id='main-header'>Secure Cloud</div>
+	<div id='upload-wrapper'>
+		<div class='form-container'>
+			<div class='x' id='x2'>+</div>
+			<div class='form'>
+				<form action='' method='POST' enctype="multipart/form-data">
+					<div class='field-header'>File Upload: <hr class='underline'></div>
+					<input type='file' class='file-input' placeholder='Some Name' name='file'>
+					<button type='submit' class='submit'>Upload</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id='form-wrapper'>
+		<div class='form-container' id='create-form'>
+			<div class='x' id='x'>+</div>
+			<div class='form'>
+				<form action='' method='POST'>
+					<div class='field-header'>Name of Folder: <hr class='underline'></div>
+					<input class='text-input' name='foldername' type='text' placeholder='Some Name'>
+					<input class='text-input' name='password' type='text' placeholder='Password (Blank for None)'>
+					<button type='submit' class='submit'>Create</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id='main-wrapper'>
+		<div id='path'>
+			{% for stage in path %}{% if stage[2] == True%}<a href={{stage[1]}} id='current'>{{ stage[0] }}/</a>{% else %}<a href={{stage[1]}} class='stage'>{{ stage[0] }}/</a>{% endif %}{% endfor %}
+		</div>
+		<div id='new-button'>
+			<div id='folder-plus'>+</div>
+		</div>
+		<div id='upload-button'>
+			
+		</div>
+		<div id='file-wrapper'>
+			{% for folder in folders %}
+				<div class='folder'>
+					<a href='{{ folder }}/' class='director'><div class='folder-icon'></div></a>
+					<div class='menu-button'>
+						<div class='menu'>
+							<a href='/download?d={{ destination }}{{ folder }}'><div class='button' id='download'><p class='button-text'>Download</p></div></a>
+							<a href='{{ folder }}'><div class='button'><p class='button-text'>View</p></div></a>
+							<div class='button'><p class='button-text'>Rename</p></div>
+							<a href='/delete?d={{ destination }}{{ folder }}'><div class='button' id='delete'><p class='button-text'>Delete</p></div></a>
+						</div>
+						<p class='dots'>...</p>
+					</div>
+					<a href='{{ folder }}/'><div class='name-wrapper'><p class='name'>{{ folder }}</p></div></a>
+				</div>
+			{% endfor %}
+			{% for file in files %}
+				<div class='file'>
+					<a href='/view?d={{ destination }}{{ file }}' class='director'><div class='file-icon' style='background-image: url("/image?d={{ destination }}{{ file }}")'></div></a>
+					<div class='menu-button'>
+						<div class='menu'>
+							<a href='/download?d={{ destination }}{{ file }}'><div class='button' id='download'><p class='button-text'>Download</p></div></a>
+							<a href='/view?d={{ file }}'><div class='button'><p class='button-text'>View</p></div></a>
+							<div class='button'><p class='button-text'>Rename</p></div>
+							<a href='/delete?d={{ destination }}{{ file }}'><div class='button' id='delete'><p class='button-text'>Delete</p></div></a>
+						</div>
+						<p class='dots'>...</p>
+					</div>
+					<a href='/view?d={{ destination }}{{ file }}'><div class='name-wrapper'><p class='name'>{{ file }}</p></div></a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+	<script src='/static/scripts/jquery.js'></script>
+	<script src='/static/scripts/storage.js'></script>
+	<script src='/static/scripts/upload.js'></script>
+</body>
+</html>
